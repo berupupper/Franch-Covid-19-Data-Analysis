@@ -1,0 +1,9 @@
+import pandas as pd
+import numpy as np
+from matplotlib import pyplot as plt
+import seaborn as sns
+
+#import datasets from sources
+world = pd.read_csv('https://covid.ourworldindata.org/data/owid-covid-data.csv?v=2020-12-02')
+#mobility = TBD
+undp = pd.read_csv('http://hdr.undp.org/en/indicators/137506#')
